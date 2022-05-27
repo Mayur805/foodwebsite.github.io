@@ -1,0 +1,783 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Gluten:wght@600&family=Lobster&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Open+Sans:wght@400;500;600;700;800&family=Oswald:wght@400;500&family=PT+Serif:ital,wght@0,700;1,700&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&family=Spartan:wght@200;300;400;500;600;700;800;900&family=Ubuntu:ital@1&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Cormorant+Upright:wght@300;400;500;600;700&family=Gluten:wght@600&family=Lobster&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Open+Sans:wght@400;500;600;700;800&family=Oswald:wght@400;500&family=PT+Serif:ital,wght@0,700;1,700&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&family=Spartan:wght@200;300;400;500;600;700;800;900&family=Ubuntu:ital@1&family=Varela+Round&display=swap');
+
+/* font-family: 'Open Sans', sans-serif; */
+
+
+/* font-family: 'Cormorant Upright', serif; */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #000000;
+}
+
+body p {
+    color: #AAAAAA;
+}
+
+
+/* *************************************.........\ Navbar /..........********************************************/
+
+.navbar {
+    background-color: #000000;
+}
+
+.navbar h1 {
+    font-family: 'Cormorant Upright';
+    font-weight: 700;
+    font-size: 44px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.navbar .collapse .navbar-nav .nav-item a {
+    color: #FFFFFF;
+}
+
+.navbar .navbar-toggler {
+    background-color: transparent;
+    border-color: #FFFFFF;
+}
+
+
+/**************************************.........\ Hero /..........************************************************/
+
+.hero {
+    font-family: 'Cormorant Upright', serif;
+}
+
+.hero .fine_dining h6 {
+    font-size: 23px;
+    font-weight: 700 bold;
+    color: #FFFFFF;
+    margin-bottom: 0rem;
+}
+
+.hero .fine_dining img {
+    height: 9px;
+    width: 40px;
+}
+
+.hero .fine_dining h1 {
+    font-size: 95px;
+    font-weight: 900;
+    color: #DCCA87;
+}
+
+.hero .fine_dining p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.06em;
+    font-family: 'Open Sans';
+}
+
+.hero .fine_dining button {
+    background-color: #DCCA87;
+    width: 157px;
+    height: 44px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 768px) {
+    .hero .fine_dining h6 {
+        font-size: 19px;
+    }
+    .hero .fine_dining h1 {
+        font-size: 74px;
+    }
+    .hero .fine_dining p {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 565px) {
+    .hero .fine_dining h6 {
+        font-size: 24px;
+    }
+    .hero .fine_dining p {
+        font-size: 14px;
+    }
+    .hero .fine_dining h1 {
+        font-size: 33px;
+    }
+    .hero .fine_dining p {
+        line-height: normal;
+    }
+}
+
+
+/* *************************************.........\ About /..........*********************************************/
+
+.about {
+    background-image: url(./img/about.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Cormorant Upright', serif;
+}
+
+.about .about_g img {
+    width: 70px;
+}
+
+.about .about_us h1 {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    text-align: right;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: #DCCA87;
+}
+
+.about .about_us p {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    text-align: right;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+    margin-bottom: 0px;
+}
+
+.abput_us_btn {
+    align-items: center;
+    padding: 8px 32px;
+    width: 141px;
+    height: 44px;
+    border: none;
+    background: #DCCA87;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #0C0C0C;
+}
+
+.about .our_history h1 {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    text-align: right;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: #DCCA87;
+}
+
+.about .our_history p {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+    margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+    .about .about_g img {
+        display: none;
+    }
+    .about .about_us h1 {
+        font-size: 56px;
+    }
+    .about .about_us p {
+        font-size: 12px;
+    }
+    .about .our_history p {
+        font-size: 12px;
+    }
+    .about .our_history h1 {
+        font-size: 49px;
+    }
+}
+
+@media only screen and (max-width: 565px) {
+    .about .about_us h1 {
+        font-size: 49px;
+    }
+    .about .our_history h1 {
+        font-size: 38px;
+    }
+}
+
+
+/* *************************************.........\ Today’s Special /..........*********************************************/
+
+.special {
+    font-family: 'Cormorant Upright', serif;
+}
+
+.special .today h4 {
+    font-size: 23px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    margin-bottom: 0rem;
+}
+
+.special .today h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #DCCA87;
+}
+
+.special .Wine h1 {
+    font-weight: 600;
+    font-size: 45px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.special .Wine .wine_hr {
+    width: 91px;
+    height: 1px;
+    background: #FAFAFA;
+}
+
+.special .Wine h6 {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #DCCA87;
+}
+
+.special .Wine .wine_p {
+    font-family: 'Cormorant Upright', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+}
+
+.special .Wine p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+}
+
+.special .special_btn {
+    background-color: #DCCA87;
+    width: 157px;
+    height: 44px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 768px) {
+    .special .today h1 {
+        font-size: 39px;
+    }
+    .special .Wine h1 {
+        font-size: 27px;
+    }
+    .special .Wine h6 {
+        font-size: 17px;
+    }
+    .special .Wine p {
+        font-size: 12px;
+    }
+    .special .Wine .wine_p {
+        font-size: 19px;
+    }
+}
+
+@media only screen and (max-width: 565px) {}
+
+
+/* *************************************.........\ chef_word /..........*****************************************************/
+
+.chef_word {
+    background-image: url(./img/chef_word.png);
+    font-family: 'Cormorant Upright', serif;
+}
+
+.chef_word .chefs_word h6 {
+    font-weight: 700;
+    font-size: 23px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    margin-bottom: 0rem;
+}
+
+.chef_word .chefs_word h1 {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    color: #DCCA87;
+}
+
+.chef_word .chefs_word p {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    /* or 28px */
+    letter-spacing: 0.04em;
+    /* AAAAAA */
+    color: #AAAAAA;
+}
+
+.chef_word .chefs_word h5 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: #DCCA87;
+}
+
+.chef_word .chefs_word .founder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+}
+
+@media only screen and (max-width: 768px) {
+    .chef_word .chefs_word h1 {
+        font-size: 33px;
+    }
+    .chef_word .chefs_word p {
+        font-size: 14px;
+    }
+    .chef_word .chefs_word .founder {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 565px) {
+    .chef_word .chefs_word h6 {
+        font-size: 30px;
+    }
+    .chef_word .chefs_word p {
+        font-size: 14px;
+    }
+    .chef_word .chefs_word h1 {
+        font-size: 36px;
+    }
+    .chef_word .chefs_word .founder {
+        font-size: 17px;
+    }
+    .chef_word .chefs_word h5 {
+        font-size: 35px;
+    }
+}
+
+
+/* *************************************.........\ Video /..........*****************************************************/
+
+
+/* .video .video_btn {
+    position: absolute;
+} */
+
+
+/* *************************************.........\ laurels /..........*****************************************************/
+
+.laurels {
+    font-family: 'Cormorant Upright';
+}
+
+.laurels .laurels_logo img {
+    position: relative;
+    right: 153px;
+    bottom: 16px;
+}
+
+.laurels h6 {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    margin-bottom: 0rem;
+}
+
+.laurels h1 {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: #DCCA87;
+}
+
+.laurels .label h6 {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: #DCCA87;
+}
+
+.laurels .label p {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+}
+
+@media only screen and (max-width: 768px) {
+    .laurels .laurels_logo img {
+        display: none;
+    }
+    .laurels .label h6 {
+        font-size: 16px;
+    }
+    .laurels .label p {
+        font-size: 10px;
+    }
+    .laurels h1 {
+        font-size: 53px;
+    }
+}
+
+@media only screen and (max-width: 565px) {
+    .laurels .label h6 {
+        font-size: 27px;
+    }
+    .laurels .label p {
+        font-size: 13px;
+    }
+    .laurels h6 {
+        font-size: 27px;
+    }
+}
+
+
+/* ***************************.........\ photo_gallery /..........**************************************************/
+
+.photo_gallery {
+    font-family: 'Cormorant Upright';
+}
+
+.photo_gallery h3 {
+    font-weight: 700;
+    font-size: 23px;
+    color: #FFFFFF;
+    margin-bottom: 0rem;
+}
+
+.photo_gallery h1 {
+    font-weight: 600;
+    font-size: 64px;
+    color: #DCCA87;
+    margin-bottom: 0rem;
+}
+
+.photo_gallery p {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #AAAAAA;
+}
+
+.photo_gallery .instagram button {
+    width: 136px;
+    height: 44px;
+    background: #DCCA87;
+    border: 1px solid #DCCA87;
+    font-weight: 700;
+    font-size: 16px;
+    color: #0C0C0C;
+}
+
+.photo_gallery .hello {
+    position: relative;
+}
+
+.photo_gallery .hello .image {
+    opacity: 1;
+    display: block;
+}
+
+.photo_gallery .hello:hover .image {
+    opacity: 0.3;
+}
+
+.photo_gallery .hello:hover .middle {
+    opacity: 1;
+    color: white;
+    font-size: 43px;
+}
+
+.photo_gallery .hello .middle {
+    position: absolute;
+    opacity: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .photo_gallery h1 {
+        font-size: 38px;
+    }
+    .photo_gallery p {
+        margin-bottom: 0rem;
+        font-size: 11px;
+    }
+    .photo_gallery .hello:hover .middle {
+        font-size: 32px;
+    }
+}
+
+@media only screen and (max-width: 565px) {
+    .photo_gallery h1 {
+        font-size: 44px;
+    }
+    .photo_gallery p {
+        font-size: 14px;
+    }
+}
+
+
+/* ***************************.........\ Find us /..........**************************************************/
+
+.find_us {
+    font-family: 'Cormorant Upright';
+    background-image: url(./img/chef_word.png);
+}
+
+.find_us .contact h5 {
+    font-weight: 700;
+    font-size: 23px;
+    color: #FFFFFF;
+    margin-bottom: 0rem;
+}
+
+.find_us .contact h1 {
+    font-weight: 600;
+    font-size: 64px;
+    color: #DCCA87;
+}
+
+.find_us .contact p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #AAAAAA;
+}
+
+.find_us .contact .opening h4 {
+    font-weight: 700;
+    font-size: 23px;
+    color: #DCCA87;
+}
+
+.find_us .contact .opening p {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.find_us .contact button {
+    width: 136px;
+    height: 44px;
+    background: #DCCA87;
+    border: 1px solid #DCCA87;
+    font-weight: 700;
+    font-size: 16px;
+    color: #0C0C0C;
+}
+
+@media only screen and (max-width: 768px) {
+    .find_us .contact h1 {
+        font-weight: 600;
+        font-size: 52px;
+        color: #DCCA87;
+    }
+    .find_us .contact p {
+        font-size: 14px;
+    }
+    .find_us .contact .opening p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 565px) {
+    .find_us .contact .opening h4 {
+        font-size: 26px;
+    }
+    .find_us .contact h1 {
+        font-size: 54px;
+    }
+    .find_us .contact .opening p {
+        font-size: 15px;
+    }
+}
+
+
+/* ***************************.........\ Footer /..........**************************************************/
+
+footer {
+    font-family: 'Cormorant Upright';
+    background-image: url(./img/chef_word.png);
+}
+
+footer .lol {
+    background: #0C0C0C;
+    border: 1px solid rgba(220, 202, 135, 0.2);
+    box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
+}
+
+footer .lol .newsletter h5 {
+    font-weight: 700;
+    font-size: 23px;
+    color: #FFFFFF;
+    margin-bottom: 0rem;
+}
+
+footer .lol .newsletter h1 {
+    font-weight: 600;
+    font-size: 64px;
+    color: #DCCA87;
+}
+
+footer .lol .newsletter p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+footer .lol .newsletter .footer_input {
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 16px;
+    color: #AAAAAA;
+    width: 796px;
+    height: 60px;
+}
+
+footer .lol .newsletter button {
+    width: 129px;
+    height: 44px;
+    background: #DCCA87;
+    border: 1px solid #DCCA87;
+    font-weight: 700;
+    font-size: 16px;
+    color: #0C0C0C;
+}
+
+footer .contactus h4 {
+    font-weight: 400;
+    font-size: 32px;
+    color: #F5EFDB;
+}
+
+footer .contactus p {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #AAAAAA;
+}
+
+footer .gerícht h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #DCCA87;
+}
+
+footer .gerícht p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 0rem;
+}
+
+footer .gerícht .gerícht_icon i {
+    font-size: 25px;
+    color: #F5EFDB;
+}
+
+footer .working h4 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: #F5EFDB;
+}
+
+footer .working p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #AAAAAA;
+}
+
+@media only screen and (max-width: 768px) {
+    footer .lol .newsletter .footer_input {
+        width: 341px;
+        height: 60px;
+    }
+    footer .lol .newsletter h1 {
+        font-size: 44px;
+    }
+    footer .lol .newsletter p {
+        font-size: 13px;
+    }
+    footer .contactus h4 {
+        font-size: 28px;
+    }
+    footer .contactus p {
+        font-size: 13px;
+    }
+    footer .gerícht h1 {
+        font-size: 32px;
+    }
+    footer .gerícht p {
+        font-size: 13px;
+    }
+    footer .working h4 {
+        font-size: 28px;
+    }
+    footer .working p {
+        font-size: 13px;
+    }
+    footer .gerícht .gerícht_icon i {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 565px) {
+    footer .lol .newsletter .footer_input {
+        width: 166px;
+        height: 44px;
+    }
+    footer .lol .newsletter h1 {
+        font-size: 28px;
+    }
+    footer .gerícht h1 {
+        font-size: 64px;
+    }
+}
